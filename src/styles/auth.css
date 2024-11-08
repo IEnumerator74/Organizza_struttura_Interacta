@@ -14,7 +14,7 @@
     width: 300px;
     min-width: 300px;
     padding: 24px;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .welcome-section {
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     padding: 20px;
     text-align: center;

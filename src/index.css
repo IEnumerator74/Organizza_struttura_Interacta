@@ -18,3 +18,11 @@ body {
 #root {
   min-height: 100vh;
 }
+
+/* Uniforma l'altezza dei pulsanti nella barra superiore */
+.flex.gap-3 > button,
+.flex.gap-3 > label {
+  padding-top: 0.25rem !important;    /* py-1 */
+  padding-bottom: 0.25rem !important; /* py-1 */
+  height: 32px;
+}

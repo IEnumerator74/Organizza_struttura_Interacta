@@ -83,7 +83,7 @@ const Auth = () => {
               type="email" 
               id="email" 
               required 
-              placeholder="nome@esempio.com"
+              placeholder=" nome@esempio.com"
               autoComplete="email"
             />
           </div>
@@ -93,7 +93,7 @@ const Auth = () => {
               type="password" 
               id="password" 
               required 
-              placeholder="Inserisci la tua password"
+              placeholder=" Inserisci la tua password"
               autoComplete="current-password"
             />
           </div>
