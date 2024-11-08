@@ -13,7 +13,7 @@ const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) =
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Router basename="/Interacta">
+    <Router>
       <Routes>
         <Route path="/login" element={<Auth />} />
         <Route path="/" element={
