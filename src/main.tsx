@@ -8,12 +8,12 @@ import './index.css'
 
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const isAuthenticated = auth.currentUser && auth.currentUser.email?.endsWith('@apkappa.it');
-  return isAuthenticated ? <>{children}</> : <Navigate to="/login" />;
+  return isAuthenticated ? <>{children}</> : <Navigate to="/Interacta/login" />;
 };
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Router>
+    <Router basename={process.env.NODE_ENV === 'production' ? '/Interacta' : '/'}>
       <Routes>
         <Route path="/login" element={<Auth />} />
         <Route path="/" element={
